@@ -18,9 +18,12 @@
     "lint:test": "node scripts/lint-conventions.test.mjs",
     "legacy:check": "node scripts/check-legacy.mjs",
     "links": "node scripts/check-links.mjs",
+    "track": "node scripts/track.mjs",
     "legacy:serve": "bun scripts/legacy-serve.mjs",
     "legacy:audit": "node scripts/legacy-audit.mjs",
-    "legacy:extract": "node scripts/legacy-extract.mjs"
+    "legacy:extract": "node scripts/legacy-extract.mjs",
+    "parity": "node scripts/parity.mjs",
+    "status": "node scripts/migration-status.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
