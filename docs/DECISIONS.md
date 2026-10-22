@@ -15,6 +15,27 @@ Consequences: what it changes.
 
 ---
 
+## 2026-10-21 — Hosting, domain, branches and legacy URLs
+
+Status: accepted (owner)
+Context: Open questions on host, domain, `*.html` URLs, branches, CI, `/403` and the 2022
+`*.php` URLs blocked the build config and cutover plan (RHSWEB-3).
+Decision:
+
+- Host: AWS Amplify, as for V1. Canonical domain `https://www.rooseveltalumni.org`; the bare
+  domain redirects to www.
+- `build.format: 'preserve'` (supersedes `directory` from 2026-10-12): emits legacy's file
+  layout so both `/about/sota` and `/about/sota.html` keep working with no redirects.
+- Branches: keep version branches. v2 deploys from `v2.0.0`; `v1.0.0` stays untouched as the
+  rollback target (switch Amplify's production branch back).
+- CI: none. `bun run verify` is run manually before pushing.
+- `/403` is kept and migrated like legacy.
+- 2022-era `*.php` URLs (e.g. `/about/board.php`) get 301s to the new pages via Amplify
+  rewrites/redirects, not `redirects.mjs`.
+  Consequences: `astro.config.mjs` uses the www `site` and `preserve`. Amplify settings (Bun
+  build, 404 rewrite, www and `*.php` 301s) are configured in the AWS console at cutover
+  (`MIGRATION_PLAN.md → Phase 5`).
+
 ## 2026-10-20 — Unlisted pages may link to each other; listed pages may not link to them
 
 Status: accepted (owner)
@@ -99,7 +120,7 @@ site visitors browsing the nav don't.
 
 ## 2026-10-12 — Keep legacy URLs, directory build output
 
-Status: accepted
+Status: accepted; build format superseded by 2026-10-21 (`preserve`)
 Context: The legacy site is static HTML served as `/section/` and `/section/page`, with external
 links, newsletters and social posts pointing at those URLs.
 Decision: `build.format: 'directory'`, `trailingSlash: 'ignore'`, one route per legacy page at the
@@ -124,20 +145,11 @@ Consequences: Large page-weight reduction; image filenames stay recognisable for
 
 ## Open questions (owner to decide)
 
-- **Host, domain and legacy `*.html` URLs.** Production domain (assumed
-  `https://rooseveltalumni.org` in `astro.config.mjs`; `FUNDING.yml` uses `http://www.`, so is
-  www or the bare domain canonical?) and host (legacy has `403.html`, suggesting Apache).
-  Determines how `/about/sota.html`-style URLs keep working: `build.format: 'preserve'`
-  (recommended; see `MIGRATION_PLAN.md → Phase 5`) or host rules. Also whether `/403` stays and
-  whether the 2022-era `*.php` URLs from the old `main` branch (e.g. `/about/board.php`) should
-  redirect.
 - **Listed role pages linking to `/volunteer/restricted`.** Under the 2026-10-20 rule, the
   "Return to Restricted Volunteer Page" link can't stay on the five listed restricted-role
   pages (decaderep, newspaperliaison, rosesteward, staffliaison, volunteercoordinator). Drop the
   link there, or make those pages unlisted too? Related: should restricted-role pages (linked
   only from the unlisted restricted page) be in the sitemap and indexable?
-- **Branches.** `main` is the 2022 PHP site; `v1.0.0` is the live HTML site that `legacy/` copies.
-  Which branch does v2 merge into and deploy from? Is `v1.0.0` the rollback target?
 - **Live-site changes during the migration.** Freeze `v1.0.0`, or re-sync `legacy/` and reopen
   affected routes (procedure in `MIGRATION_PLAN.md → Legacy source`)?
 - **Mailchimp signup jQuery.** Accept `mc-validate.js` (bundles jQuery) and its inline
@@ -147,8 +159,8 @@ Consequences: Large page-weight reduction; image filenames stay recognisable for
 - **Review cost.** Pin `parity-reviewer` and `legacy-analyst` to a smaller model (subagents
   inherit the session model)? For the 25 template-driven role pages, full screenshot review on
   ~3 representative routes (public, restricted, unlisted) and text/link/lint review on the rest?
-- **New dev tooling (new dependencies).** A CI workflow running `bun run verify`
-  (`oven-sh/setup-bun`), and/or `@axe-core/playwright` for the Phase 5 accessibility pass?
+- **New dev tooling (new dependency).** `@axe-core/playwright` for the Phase 5 accessibility
+  pass? (CI decided 2026-10-21: none.)
 - **`bootstrap@4.1.1` devDependency** is unused by any script: remove it, or use it in parity to
   serve Bootstrap CSS locally when the CDN is unreachable (partial fix: legacy still needs
   jQuery from a CDN for its header/footer)?

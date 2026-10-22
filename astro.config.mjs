@@ -14,12 +14,12 @@ const LATIN_EXT =
 
 // https://astro.build/config
 export default defineConfig({
-  // TODO(confirm): production domain. Emails use rooseveltalumni.org.
-  site: 'https://rooseveltalumni.org',
+  // Canonical domain is www (owner decision 2026-10-21); the bare domain redirects on Amplify.
+  site: 'https://www.rooseveltalumni.org',
 
-  // Legacy URLs are extensionless and directory-style (/about/, /about/sota).
-  // `directory` output (+ 'ignore') keeps every legacy path working on a static host.
-  build: { format: 'directory' },
+  // `preserve` emits legacy's exact file layout (about/index.html, about/sota.html), so on
+  // Amplify both /about/sota and /about/sota.html keep working with no redirects.
+  build: { format: 'preserve' },
   trailingSlash: 'ignore',
 
   // Old *.html URLs and any renamed routes. Maintained by the migration workflow.

@@ -63,16 +63,16 @@ function contentModelNote() {
   return `${defined.length}/${planned.length} collections${missing.length ? ` (missing ${missing.join(', ')})` : ': done'}`;
 }
 
-// Phase 5: redirects.mjs sanity. How legacy `*.html` URLs keep working is decided with the host
-// (MIGRATION_PLAN.md → Phase 5): an `/x/index.html` key breaks `astro build` (EISDIR), and a
-// redirect to itself loops.
+// Phase 5: redirects.mjs sanity. Legacy `*.html` URLs keep working through
+// `build.format: 'preserve'`, not redirects (DECISIONS.md 2026-10-21): an `/x/index.html` key
+// collides with the real page, and a redirect to itself loops.
 function cutoverNote() {
   const trim = (p) => (p.length > 1 ? p.replace(/\/$/, '') : p);
   const entries = Object.entries(legacyRedirects);
   const problems = entries
     .filter(([from, to]) => from.endsWith('/index.html') || trim(from) === trim(String(to)))
     .map(([from]) => from);
-  return `${entries.length} redirect(s)${problems.length ? `; BROKEN: ${problems.join(', ')}` : ''}; legacy *.html URLs: see MIGRATION_PLAN Phase 5`;
+  return `${entries.length} redirect(s)${problems.length ? `; BROKEN: ${problems.join(', ')}` : ''}; legacy *.html URLs: served by build.format 'preserve'`;
 }
 
 // legacy/ is a snapshot of the live site's branch; warn when that branch has moved since.

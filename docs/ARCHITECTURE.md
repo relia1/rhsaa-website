@@ -8,7 +8,7 @@ If a change needs to break a convention, update this file in the same change and
 
 | Concern     | Choice                                                                       |
 | ----------- | ---------------------------------------------------------------------------- |
-| Framework   | Astro 7 (static output, `build.format: 'directory'`)                         |
+| Framework   | Astro 7 (static output, `build.format: 'preserve'`)                          |
 | Language    | TypeScript, `astro/tsconfigs/strict`                                         |
 | Styling     | Tailwind CSS v4 via `@tailwindcss/vite`; tokens in `src/styles/global.css`   |
 | Content     | Astro content collections (`src/content.config.ts`) with Zod schemas         |
@@ -58,9 +58,9 @@ public/                 Files served verbatim: favicons, PDFs (public/pdf/), rob
 - Internal links are root-absolute (`/about/board`), never relative (`../about/board`).
 - Repeated detail pages come from a collection + dynamic route, e.g.
   `src/pages/volunteer/[slug].astro` with `getStaticPaths()` over `volunteerRoles`.
-- Legacy `*.html` URLs (`/about/sota.html`) and the build output format depend on the host:
-  open question in `DECISIONS.md`; see `MIGRATION_PLAN.md → Phase 5`. Don't add `*.html` keys
-  to `redirects.mjs` meanwhile.
+- Legacy `*.html` URLs (`/about/sota.html`) keep working through `build.format: 'preserve'`
+  (same file layout as legacy); see `DECISIONS.md`. Never add `*.html` keys to
+  `redirects.mjs`. Old 2022 `*.php` URLs are redirected by Amplify rules, not by Astro.
 
 ## Content model
 

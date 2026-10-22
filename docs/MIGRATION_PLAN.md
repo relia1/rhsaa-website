@@ -89,23 +89,21 @@ Manually confirm the Mailchimp form posts and the PayPal buttons open the right 
 
 ### Phase 5 — Cutover
 
-- Legacy `*.html` URLs (`/about/sota.html`, `/about/index.html`): decided with the host (open
-  question in `DECISIONS.md`). **Not** through `redirects.mjs`. Without an adapter, Astro
-  writes a meta-refresh page per redirect, not an HTTP 301. A key like `/about/index.html`
-  collides with the real page and fails the build (EISDIR); `/about/sota.html` becomes
-  `about/sota.html/index.html`. Options:
-  - **`build.format: 'preserve'`** (recommended): emits `about/sota.html` and
-    `about/index.html`, legacy's exact file layout. On the same host both `/about/sota` and
-    `/about/sota.html` keep working with no redirects, and the sitemap lists URLs without a
-    trailing slash, like legacy.
-  - Host-level 301 rules (`.htaccess`, `_redirects`, …) generated from the legacy file list,
-    with `build.redirects: false` if an adapter writes them.
+- Legacy `*.html` URLs (`/about/sota.html`, `/about/index.html`): handled by
+  `build.format: 'preserve'` (decided 2026-10-21), which emits legacy's exact file layout, so
+  on Amplify both `/about/sota` and `/about/sota.html` keep working with no redirects.
+  **Not** through `redirects.mjs`: without an adapter, Astro writes a meta-refresh page per
+  redirect, not an HTTP 301, and a key like `/about/index.html` collides with the real page.
+- Amplify (AWS console): production branch `v2.0.0` (rollback: switch back to `v1.0.0`), Bun
+  build settings (`bun install`, `bun run build`, output `dist/`), bare domain → `www` 301,
+  custom 404 rewrite to `/404.html`, and 301 rules for the 2022 `*.php` URLs (list from the old
+  `main` branch, e.g. `/about/board.php` → `/about/board`).
 - `redirects.mjs` holds only routes whose URL changed. `bun run status` flags keys that would
   break the build.
 - Sitemap already excludes unlisted pages; also exclude drafts; add `robots.txt`.
 - Full-site parity sweep: every route `verified` in the tracker.
 - Lighthouse/axe pass on a sample of each page type.
-- Hosting config (redirect rules / headers for the chosen host), DNS, then archive `legacy/`.
+- DNS, then archive `legacy/`.
 
 ## Definition of done for one route
 
