@@ -1,0 +1,33 @@
+/* Scan only src/ for class names. Tailwind otherwise scans every file git doesn't ignore,
+   including legacy/ (Bootstrap markup → .col-10, .collapse, .container) and docs/. */
+@import 'tailwindcss' source('..');
+
+/*
+ * Design tokens extracted from legacy/includes/rhsaa-style.css.
+ * Use these via Tailwind utilities (bg-gold, text-ink, font-display, ...).
+ * Do NOT hard-code hex values in components; add a token here instead.
+ */
+@theme {
+  /* Brand */
+  --color-gold: #a99533; /* legacy primary text/accent (used 20x) */
+  --color-ink: #000000; /* legacy nav/body text on light bg */
+  --color-paper: #ffffff;
+
+  /* Neutrals */
+  --color-slate: #45484c; /* legacy dark grey panels */
+  --color-mist: #c9d0db; /* legacy light grey blocks (.helpbox, .blockD) */
+  --color-stone: #888888;
+  --color-fog: #cccccc;
+
+  /* Type: Playfair Display everywhere, as in legacy. Self-hosted via Astro's Fonts API
+     (astro.config.mjs → fonts). --font-playfair is defined by <Font> in BaseLayout and
+     already includes the optimised fallbacks. */
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-playfair);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+  }
+}
