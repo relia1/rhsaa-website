@@ -1,0 +1,1990 @@
+{
+  "generatedAt": "2026-10-21T00:31:10.601Z",
+  "summary": {
+    "pages": 59,
+    "nonUtf8Pages": 26,
+    "assets": 384,
+    "assetBytes": 337460108,
+    "brokenRefs": 2
+  },
+  "pages": [
+    {
+      "route": "/403",
+      "file": "legacy/403.html",
+      "title": "Roosevelt High School Alumni Association - Error",
+      "encoding": "utf-8",
+      "words": 46,
+      "hero": null,
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/404",
+      "file": "legacy/404.html",
+      "title": "Roosevelt High School Alumni Association - Error",
+      "encoding": "utf-8",
+      "words": 36,
+      "hero": null,
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/board",
+      "file": "legacy/about/board.html",
+      "title": "Board - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 316,
+      "hero": {
+        "class": "photoboard",
+        "image": "/images/headers/boardhead.png",
+        "title": "Our Board of Directors"
+      },
+      "images": [
+        "/images/board/jim.png",
+        "/images/board/megan.png",
+        "/images/board/wade.png",
+        "/images/board/shawn.png",
+        "/images/board/kerry.png",
+        "/images/board/dylanyoung.png",
+        "/images/board/michael.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/boardpolicy",
+      "file": "legacy/about/boardpolicy.html",
+      "title": "Board Member Participation Policy - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 289,
+      "hero": {
+        "class": "photobylaws",
+        "image": "/images/headers/bylawshead.png",
+        "title": "Rules & Bylaws"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/bylaws",
+      "file": "legacy/about/bylaws.html",
+      "title": "Bylaws - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 4049,
+      "hero": {
+        "class": "photobylaws",
+        "image": "/images/headers/bylawshead.png",
+        "title": "Rules & Bylaws"
+      },
+      "images": [],
+      "pdfs": [
+        "/pdf/RHSAABylaws.pdf"
+      ],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/committees",
+      "file": "legacy/about/committees.html",
+      "title": "Committees - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 1107,
+      "hero": {
+        "class": "photocom",
+        "image": "/images/headers/committeeshead.png",
+        "title": "Our Committees"
+      },
+      "images": [
+        "/images/committees/executive.png",
+        "/images/committees/communications.png",
+        "/images/committees/development.png",
+        "/images/committees/finance.png",
+        "/images/committees/fundraise.png",
+        "/images/committees/historical.png",
+        "/images/committees/landscape.png",
+        "/images/committees/nominating.png",
+        "/images/committees/picnic.png",
+        "/images/committees/pil.png",
+        "/images/committees/scholarship.png",
+        "/images/committees/veterans.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/",
+      "file": "legacy/about/index.html",
+      "title": "About Us - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 561,
+      "hero": {
+        "class": "photoabout",
+        "image": "/images/headers/about.png",
+        "title": "About Us"
+      },
+      "images": [
+        "/images/aboutus/board.png",
+        "/images/aboutus/coms.png",
+        "/images/aboutus/bylaws.png",
+        "/images/aboutus/sota.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/sota",
+      "file": "legacy/about/sota.html",
+      "title": "State of the Association - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 3681,
+      "hero": {
+        "class": "photosota",
+        "image": "/images/headers/sotahead.png",
+        "title": "State of the Association"
+      },
+      "images": [
+        "/images/sota/2026/sota-hof-26.png",
+        "/images/sota/2026/sota-board-26.png",
+        "/images/sota/2026/sota-coms-26.png",
+        "/images/sota/2026/sota-exec-26.png",
+        "/images/sota/2026/sota-fundraising-26.png",
+        "/images/sota/2026/sota-grants-26.png",
+        "/images/sota/2026/sota-history-26.png",
+        "/images/sota/2026/sota-picnic-26.png",
+        "/images/sota/2026/sota-scholarship-26.png",
+        "/images/sota/2026/sota-rep-26.png",
+        "/images/sota/2026/sota-support-26.png",
+        "/images/sota/2026/sota-vets-26.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/sota2024",
+      "file": "legacy/about/sota2024.html",
+      "title": "2024 State of the Association - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 3349,
+      "hero": {
+        "class": "photosota",
+        "image": "/images/headers/sotahead.png",
+        "title": "2024 State of the Association"
+      },
+      "images": [
+        "/images/sota/2024/sota-board-24.png",
+        "/images/sota/2024/sota-centennial-24.png",
+        "/images/sota/2024/sota-cherry-24.png",
+        "/images/sota/2024/sota-communications-24.png",
+        "/images/sota/2024/sota-executive-24.png",
+        "/images/sota/2024/sota-grants-24.png",
+        "/images/sota/2024/sota-history-24.png",
+        "/images/sota/2024/sota-picnic-24.png",
+        "/images/sota/2024/sota-pil-24.png",
+        "/images/sota/2024/sota-scholarship-24.png",
+        "/images/sota/2024/sota-veterans-24.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/sota2025",
+      "file": "legacy/about/sota2025.html",
+      "title": "State of the Association - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 3838,
+      "hero": {
+        "class": "photosota",
+        "image": "/images/headers/sotahead.png",
+        "title": "2025 State of the Association"
+      },
+      "images": [
+        "/images/sota/2025/sota-board-25.png",
+        "/images/sota/2025/sota-coms-25.png",
+        "/images/sota/2025/sota-exec-25.png",
+        "/images/sota/2025/sota-grants-25.png",
+        "/images/sota/2025/sota-history-25.png",
+        "/images/sota/2025/sota-holiday-25.png",
+        "/images/sota/2025/sota-picnic-25.png",
+        "/images/sota/2025/sota-hof-25.png",
+        "/images/sota/2025/sota-scholarship-25.png",
+        "/images/sota/2025/sota-support-25.png",
+        "/images/sota/2025/sota-sympathy-25.png",
+        "/images/sota/2025/sota-vets-25.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/about/studentduties",
+      "file": "legacy/about/studentduties.html",
+      "title": "Student Representative Duties - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 489,
+      "hero": {
+        "class": "photobylaws",
+        "image": "/images/headers/bylawshead.png",
+        "title": "Rules & Bylaws"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/contact/",
+      "file": "legacy/contact/index.html",
+      "title": "Contact Us - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 107,
+      "hero": {
+        "class": "photocontact",
+        "image": "/images/headers/contact.png",
+        "title": "Contact Us"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [
+        {
+          "kind": "script",
+          "src": "//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://rooseveltalumni.us16.list-manage.com/subscribe/post?u=75c42ac3e0a29f576e7a1789a&id=89f087f75c",
+          "method": "post"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "route": "/donate/",
+      "file": "legacy/donate/index.html",
+      "title": "Donate - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 363,
+      "hero": {
+        "class": "photodonate",
+        "image": "/images/headers/donate.png",
+        "title": "Donate"
+      },
+      "images": [
+        "/images/donate/paypal.png",
+        "/en_US/i/scr/pixel.gif",
+        "/images/donate/check.png",
+        "/images/donate/rewards.png",
+        "/images/donate/bandgrant.png",
+        "/images/donate/2023Dance.jpg",
+        "/images/donate/2023Theatre.JPG"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [
+        {
+          "action": "https://www.paypal.com/donate",
+          "method": "post"
+        }
+      ],
+      "externalLinks": [
+        "https://www.fredmeyer.com/topic/community-rewards-4"
+      ]
+    },
+    {
+      "route": "/donate/megansletter",
+      "file": "legacy/donate/megansletter.html",
+      "title": "Megan's Letter - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 1636,
+      "hero": {
+        "class": "photodonate",
+        "image": "/images/headers/donate.png",
+        "title": "Donate"
+      },
+      "images": [
+        "/en_US/i/scr/pixel.gif",
+        "/images/donate/megan10thgrade.jpg",
+        "/images/donate/megan11thgrade.JPG",
+        "/images/donate/megan12thgrade.jpg",
+        "/images/donate/meganalumni1.jpg",
+        "/images/donate/meganalumni2.jpg",
+        "/images/donate/meganalumni3.jpg",
+        "/images/common/logoold.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [
+        {
+          "action": "https://www.paypal.com/donate",
+          "method": "post"
+        },
+        {
+          "action": "https://www.paypal.com/donate",
+          "method": "post"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "route": "/events/",
+      "file": "legacy/events/index.html",
+      "title": "Events - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 84,
+      "hero": {
+        "class": "photoevent",
+        "image": "/images/headers/events.png",
+        "title": "Events"
+      },
+      "images": [
+        "/images/events/2027Picnic-Date.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://www.flickr.com/photos/rooseveltalumni/albums"
+      ]
+    },
+    {
+      "route": "/events/reunions",
+      "file": "legacy/events/reunions.html",
+      "title": "Reunions - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 251,
+      "hero": {
+        "class": "photoreunion",
+        "image": "/images/headers/reunion.png",
+        "title": "Reunions"
+      },
+      "images": [
+        "/images/events/1967Reunion.png",
+        "/images/events/1970Reunion.jpg",
+        "/images/events/1971-55-reunion-1.jpg",
+        "/images/events/1976reunion.jpg",
+        "/images/events/2001Reunion.jpg",
+        "/images/events/0506reunion.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://www.facebook.com/1970Roughrider",
+        "https://www.facebook.com/groups/1691545042476050",
+        "https://www.facebook.com/groups/145377525526684"
+      ]
+    },
+    {
+      "route": "/events/rhs",
+      "file": "legacy/events/rhs.html",
+      "title": "Roosevelt Events - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 80,
+      "hero": {
+        "class": "photorhs",
+        "image": "/images/headers/rhsevents.png",
+        "title": "Roosevelt Events"
+      },
+      "images": [
+        "/images/rhsevents/general.png",
+        "/images/rhsevents/ptsa.png",
+        "/images/rhsevents/theatre.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://trivory.com/roosevelt/calendar",
+        "http://www.osaa.org/schools/149",
+        "https://www.roosevelttheatre.org/current-season"
+      ]
+    },
+    {
+      "route": "/grants/grantrecipients",
+      "file": "legacy/grants/grantrecipients.html",
+      "title": "Grant Recipients - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 913,
+      "hero": {
+        "class": "photogrant",
+        "image": "/images/headers/grant.png",
+        "title": "Grant Recipients"
+      },
+      "images": [
+        "/images/grants/202606athletics.jpg",
+        "/images/grants/202604prom.jpg",
+        "/images/grants/202604bsu.jpg",
+        "/images/grants/202603unityfest.jpg",
+        "/images/grants/202602track.jpg",
+        "/images/grants/202602publications.jpg",
+        "/images/grants/202602crosscountry.jpg",
+        "/images/grants/202601art.jpg",
+        "/images/grants/202601softball.jpg",
+        "/images/grants/202601baseball.jpg",
+        "/images/grants/202601speech.jpg",
+        "/images/grants/202512giftcards.jpeg",
+        "/images/grants/202512boysbasketball.jpg",
+        "/images/grants/202510homecoming.jpg",
+        "/images/grants/202508Dance.jpg",
+        "/images/grants/202509council.JPG",
+        "/images/grants/202506theatre.jpg",
+        "/images/grants/202505yearbook.jpg",
+        "/images/grants/202505ceremony.JPG",
+        "/images/grants/202504Tennis.jpg",
+        "/images/grants/202503golf.jpg",
+        "/images/grants/202502Jasmin.jpg",
+        "/images/grants/202502baseball.JPG",
+        "/images/grants/202502muslim.jpg",
+        "/images/grants/202501Heleen.JPG",
+        "/images/grants/202410socialwork.jpg",
+        "/images/grants/202409jazz.JPG",
+        "/images/grants/202409leadership.jpg",
+        "/images/grants/202407dance.jpg",
+        "/images/grants/202407basketball.jpg",
+        "/images/grants/202406track.jpg",
+        "/images/grants/202405unityfest.jpg",
+        "/images/grants/202312gift.jpg",
+        "/images/grants/202312wrestling.jpg",
+        "/images/grants/202312choir.jpg",
+        "/images/grants/202311teachers.jpg",
+        "/images/grants/202311Isabela.jpg",
+        "/images/grants/202310resources.jpg",
+        "/images/grants/202310speech.jpg",
+        "/images/grants/202309homecoming.jpg",
+        "/images/grants/202309Theatre.JPG",
+        "/images/grants/202307Dance.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/grants/",
+      "file": "legacy/grants/index.html",
+      "title": "Grants - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 195,
+      "hero": {
+        "class": "photogrant",
+        "image": "/images/headers/grant.png",
+        "title": "Grants"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://forms.gle/UeqmHEg3GtbtJ69K9",
+        "https://forms.gle/wvYUbSyKqx68xa9T8"
+      ]
+    },
+    {
+      "route": "/history/coatofarms",
+      "file": "legacy/history/coatofarms.html",
+      "title": "Coat of Arms - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 292,
+      "hero": {
+        "class": "photocoat",
+        "image": "/images/headers/coathead.png",
+        "title": "Coat of Arms"
+      },
+      "images": [
+        "/images/coatofarms/oldcrest.png",
+        "/images/coatofarms/newcrest.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/history/fallenalumnimemorial",
+      "file": "legacy/history/fallenalumnimemorial.html",
+      "title": "Fallen Alumni Veterans Memorials - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 535,
+      "hero": {
+        "class": "photomemorial",
+        "image": "/images/headers/memorialhead.png",
+        "title": "Veterans Memorials"
+      },
+      "images": [
+        "/images/memorials/HQ_FallenAlumni.JPG"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/history/",
+      "file": "legacy/history/index.html",
+      "title": "History - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 995,
+      "hero": {
+        "class": "photohistory",
+        "image": "/images/headers/history.png",
+        "title": "History"
+      },
+      "images": [
+        "/images/history/coat.png",
+        "/images/history/principals.PNG",
+        "/images/history/rosefestival.png",
+        "/images/history/memorial.png",
+        "/images/history/history-jjhs.jpg",
+        "/images/history/history-construction.jpg",
+        "/images/history/history-30s.jpg",
+        "/images/history/history-60s.png",
+        "/images/history/history-2000s.jpg",
+        "/images/history/history-2010s.jpg",
+        "/images/history/history-current.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/history/memorials",
+      "file": "legacy/history/memorials.html",
+      "title": "Veterans Memorials - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 991,
+      "hero": {
+        "class": "photomemorial",
+        "image": "/images/headers/memorialhead.png",
+        "title": "Veterans Memorials"
+      },
+      "images": [
+        "/images/memorials/vetout.png",
+        "/images/memorials/vetclose.png",
+        "/images/memorials/vetfull.png",
+        "/images/memorials/fallenalumni.JPG",
+        "/images/memorials/allvets.png",
+        "/images/memorials/gulf.png",
+        "/images/memorials/vietnam.png",
+        "/images/memorials/wwii.png"
+      ],
+      "pdfs": [],
+      "embeds": [
+        {
+          "kind": "iframe",
+          "src": "https://www.youtube.com/embed/PGZpIYQo6Cs"
+        }
+      ],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/history/princesses",
+      "file": "legacy/history/princesses.html",
+      "title": "Rose Festival - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 1261,
+      "hero": {
+        "class": "photoprincess",
+        "image": "/images/headers/princesshead.png",
+        "title": "Rose Festival"
+      },
+      "images": [
+        "/images/princess/2026Jasmin-coronation.jpg",
+        "/images/princess/2026Jasmin-giving.jpg",
+        "/images/princess/2026Jasmin-rep.jpg",
+        "/images/princess/2026Jasmin-oregon.jpg",
+        "/images/princess/2026Jasmin.jpg",
+        "/images/princess/QueenLucyLeeThomas.jpg",
+        "/images/princess/QueenSallySwift.png",
+        "/images/princess/QueenKristiLee.png",
+        "/images/princess/2026.png",
+        "/images/princess/2025.png",
+        "/images/princess/2024.png",
+        "/images/princess/2023.png",
+        "/images/princess/2022.png",
+        "/images/princess/2021.png",
+        "/images/princess/2020PrincessDyllan.jpg",
+        "/images/princess/2019Makenzie.jpg",
+        "/images/princess/2018.jpg",
+        "/images/princess/2017.jpg",
+        "/images/princess/2016.jpg",
+        "/images/princess/2015.jpg",
+        "/images/princess/2014.jpg",
+        "/images/princess/2013.jpg",
+        "/images/princess/2012.jpg",
+        "/images/princess/2011.jpg",
+        "/images/princess/2010.jpg",
+        "/images/princess/2009.jpg",
+        "/images/princess/2008.jpg",
+        "/images/princess/2007.jpg",
+        "/images/princess/2006.jpg",
+        "/images/princess/2005.jpg",
+        "/images/princess/2004.jpg",
+        "/images/princess/2003.jpg",
+        "/images/princess/2002.jpg",
+        "/images/princess/2001.jpg",
+        "/images/princess/2000.jpg",
+        "/images/princess/1999.jpg",
+        "/images/princess/1998.jpg",
+        "/images/princess/1997.jpg",
+        "/images/princess/1996.jpg",
+        "/images/princess/1995.jpg",
+        "/images/princess/1994.jpg",
+        "/images/princess/1993.jpg",
+        "/images/princess/1992.jpg",
+        "/images/princess/1991.jpg",
+        "/images/princess/1990.jpg",
+        "/images/princess/1989.jpg",
+        "/images/princess/1988.jpg",
+        "/images/princess/1987.jpg",
+        "/images/princess/1986.jpg",
+        "/images/princess/1985.jpg",
+        "/images/princess/1984.jpg",
+        "/images/princess/1983.jpg",
+        "/images/princess/1982.jpg",
+        "/images/princess/1981.jpg",
+        "/images/princess/1980.jpg",
+        "/images/princess/1979.jpg",
+        "/images/princess/1978.jpg",
+        "/images/princess/1977.jpg",
+        "/images/princess/1976.jpg",
+        "/images/princess/1975.jpg",
+        "/images/princess/1974.jpg",
+        "/images/princess/1973.jpg",
+        "/images/princess/1972.jpg",
+        "/images/princess/1971.jpg",
+        "/images/princess/1970.jpg",
+        "/images/princess/1969.jpg",
+        "/images/princess/1968.jpg",
+        "/images/princess/1967.jpg",
+        "/images/princess/1966.jpg",
+        "/images/princess/1965.jpg",
+        "/images/princess/1964.jpg",
+        "/images/princess/1963.jpg",
+        "/images/princess/1962.jpg",
+        "/images/princess/1961.jpg",
+        "/images/princess/1960.jpg",
+        "/images/princess/1959.jpg",
+        "/images/princess/1958.jpg",
+        "/images/princess/1957.jpg",
+        "/images/princess/1956.jpg",
+        "/images/princess/1955.jpg",
+        "/images/princess/1954.jpg",
+        "/images/princess/1953.jpg",
+        "/images/princess/1952.jpg",
+        "/images/princess/1951.jpg",
+        "/images/princess/1950.jpg",
+        "/images/princess/1949.jpg",
+        "/images/princess/1948.jpg",
+        "/images/princess/1947.jpg",
+        "/images/princess/1946.jpg",
+        "/images/princess/1945.jpg",
+        "/images/princess/1944.jpg",
+        "/images/princess/1943.jpg",
+        "/images/princess/1942.jpg",
+        "/images/princess/1941.jpg",
+        "/images/princess/1940.jpg",
+        "/images/princess/1939.jpg",
+        "/images/princess/1938.jpg",
+        "/images/princess/1937.jpg",
+        "/images/princess/1936.jpg",
+        "/images/princess/1935.jpg",
+        "/images/princess/1934.jpg",
+        "/images/princess/1933.jpg",
+        "/images/princess/1932.jpg",
+        "/images/princess/1931.jpg",
+        "/images/princess/1930.jpg",
+        "/images/princess/1923.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/history/principals",
+      "file": "legacy/history/principals.html",
+      "title": "Principals - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 291,
+      "hero": {
+        "class": "photoprincipals",
+        "image": "/images/headers/principals.jpg",
+        "title": "Principals"
+      },
+      "images": [
+        "/images/principals/18-Parman.jpg",
+        "/images/principals/17-Hristic.jpg",
+        "/images/principals/16-Williams.png",
+        "/images/principals/15-Peterson.jpg",
+        "/images/principals/14-Kelly.jpg",
+        "/images/principals/13-Hobson.jpg",
+        "/images/principals/12-Coakley.jpg",
+        "/images/principals/11-Hryciw.jpg",
+        "/images/principals/10-Galati.jpg",
+        "/images/principals/9-Gray.jpg",
+        "/images/principals/8-Wienecke.PNG",
+        "/images/principals/7-Westcott.PNG",
+        "/images/principals/6-James.PNG",
+        "/images/principals/5-York.PNG",
+        "/images/principals/4-Griffith.jpg",
+        "/images/principals/3-Meek.PNG",
+        "/images/principals/2-Fry.PNG",
+        "/images/principals/1-Fletcher.jpg",
+        "/images/principals/sjhs-Boss.PNG",
+        "/images/principals/sjhs-Waters.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/",
+      "file": "legacy/index.html",
+      "title": "Roosevelt High School Alumni Association - Home",
+      "encoding": "utf-8",
+      "words": 449,
+      "hero": {
+        "class": "photohome",
+        "image": "/images/headers/home.png",
+        "title": "Home"
+      },
+      "images": [
+        "/images/home/MikeAnnouncement.png",
+        "/images/home/gear1.jpeg",
+        "/images/home/gear2.jpeg",
+        "/images/home/gear3.jpeg",
+        "/images/home/gear4.jpeg",
+        "/images/home/gear5.jpeg",
+        "/images/home/gear6.jpeg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://www.facebook.com/share/p/14aJaLfMf87/",
+        "https://www.facebook.com/share/p/1AfGm7tXBi/",
+        "https://www.facebook.com/share/p/15aY5qBSCQU/",
+        "http://sideline.bsnsports.com/schools/oregon/portland/roosevelt-high-school"
+      ]
+    },
+    {
+      "route": "/links/",
+      "file": "legacy/links/index.html",
+      "title": "Links - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 97,
+      "hero": {
+        "class": "photolink",
+        "image": "/images/headers/links.png",
+        "title": "Links"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://roosevelt.pps.net/",
+        "https://www.rooseveltsupporterclub.com/",
+        "http://www.roosevelttheatre.org/",
+        "https://www.flickr.com/photos/rooseveltalumni/albums",
+        "http://www.osaa.org/schools/149",
+        "http://www.classmates.com/yearbooks/",
+        "https://www.facebook.com/groups/1321326657932209/",
+        "https://www.facebook.com/groups/153561871500023/about/",
+        "https://www.facebook.com/groups/200929293965193/",
+        "https://www.facebook.com/1970Roughrider/",
+        "https://www.facebook.com/groups/1199643527449142",
+        "https://www.facebook.com/groups/462010839306649",
+        "https://www.facebook.com/groups/1314306402348480",
+        "https://www.facebook.com/groups/728969750521198/about/",
+        "https://www.facebook.com/groups/535406666917010/",
+        "https://www.facebook.com/groups/5053799021353549",
+        "https://www.facebook.com/groups/358791894518861/",
+        "https://www.facebook.com/groups/1545997062292150/?hc_location=ufi",
+        "https://www.facebook.com/groups/346759142048710/about/",
+        "https://www.facebook.com/groups/406199489569733/about/",
+        "https://www.facebook.com/groups/RooseveltHighSchool1999/",
+        "https://www.facebook.com/groups/145377525526684/about/",
+        "https://www.facebook.com/groups/218287031520877/about/",
+        "https://www.facebook.com/groups/217636695676561/",
+        "https://www.facebook.com/groups/155128471193101/",
+        "https://www.facebook.com/groups/2273357589345402/",
+        "https://www.facebook.com/groups/155898384610637/",
+        "https://www.facebook.com/rhsaaportland/",
+        "https://www.facebook.com/RooseveltOnTheRise/",
+        "https://www.facebook.com/pps.homepage/",
+        "https://www.facebook.com/profile.php?id=100092361092509",
+        "https://www.facebook.com/RHSAlumniGolf",
+        "https://www.facebook.com/Lady-Riders-Basketball-258894487500062/",
+        "https://www.facebook.com/RooseveltSupporterClub",
+        "https://www.facebook.com/Roosevelt-Roughrider-Softball-144202825644656/",
+        "https://www.facebook.com/rhsveteransmemorial/",
+        "https://www.facebook.com/roosevelttheatreopeningacttheatrecompany/",
+        "https://www.facebook.com/Roosevelt-Thespian-Troupe-7289-212730862072106/"
+      ]
+    },
+    {
+      "route": "/news/",
+      "file": "legacy/news/index.html",
+      "title": "News - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 36,
+      "hero": {
+        "class": "photonews",
+        "image": "/images/headers/newshead.png",
+        "title": "News"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [
+        {
+          "kind": "script",
+          "src": "https://rooseveltalumni.us16.list-manage.com/generate-js/?u=75c42ac3e0a29f576e7a1789a&show=10&fid=314021"
+        }
+      ],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/scholarships/",
+      "file": "legacy/scholarships/index.html",
+      "title": "Scholarships - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 92,
+      "hero": {
+        "class": "photoscholarship",
+        "image": "/images/headers/scholarshiphead.png",
+        "title": "Scholarships"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/scholarships/pastrecipients",
+      "file": "legacy/scholarships/pastrecipients.html",
+      "title": "Past Scholarship Recipients - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 3653,
+      "hero": {
+        "class": "photowinners",
+        "image": "/images/headers/winnershead.png",
+        "title": "Past Scholarship Recipients"
+      },
+      "images": [
+        "/images/scholarships/2026Carolina.JPG",
+        "/images/scholarships/2026Grey.JPG",
+        "/images/scholarships/2026Jasmin.jpg",
+        "/images/scholarships/2026Kyli.JPG",
+        "/images/scholarships/2026Luke.JPG",
+        "/images/scholarships/2025Ariana.jpg",
+        "/images/scholarships/2025Daniel.jpg",
+        "/images/scholarships/2025Gabriela.jpg",
+        "/images/scholarships/2025Gloria.jpg",
+        "/images/scholarships/2025Maryan.jpg",
+        "/images/scholarships/2024Aili.png",
+        "/images/scholarships/2024Ellie.png",
+        "/images/scholarships/2024Finn.png",
+        "/images/scholarships/2024Hazel.png",
+        "/images/scholarships/2024Karter.png",
+        "/images/scholarships/2023Alex.JPG",
+        "/images/scholarships/2023Alyah.JPG",
+        "/images/scholarships/2023Gwen.png",
+        "/images/scholarships/2023Henry.JPG",
+        "/images/scholarships/2023Malak.JPG",
+        "/images/scholarships/2022Chloe.jpg",
+        "/images/scholarships/2022Denise.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/scholarships/verboutaward",
+      "file": "legacy/scholarships/verboutaward.html",
+      "title": "Mike Verbout Award - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 432,
+      "hero": {
+        "class": "photoverboutaward",
+        "image": "/images/headers/verboutaward.jpg",
+        "title": "Mike Verbout Roughrider Award"
+      },
+      "images": [
+        "/images/scholarships/2026Verbout-Hazel.JPG"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/studentrep",
+      "file": "legacy/studentrep.html",
+      "title": "Roosevelt High School Alumni Association - Student Representative",
+      "encoding": "utf-8",
+      "words": 301,
+      "hero": {
+        "class": "photoscholarship",
+        "image": "/images/headers/scholarshiphead.png",
+        "title": "Student Representative"
+      },
+      "images": [
+        "/images/home/StudentRepresentativeFlyer.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/athleticdata",
+      "file": "legacy/volunteer/athleticdata.html",
+      "title": "Athletic Hall of Fame Data Coordinator - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 275,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/athleticdata.jpeg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/athleticresearcher",
+      "file": "legacy/volunteer/athleticresearcher.html",
+      "title": "Athletic History Researcher - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 253,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/athleticresearcher.jpeg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/biowriter",
+      "file": "legacy/volunteer/biowriter.html",
+      "title": "Biography Writer - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 228,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/biowriter.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/decaderep",
+      "file": "legacy/volunteer/decaderep.html",
+      "title": "Decade Representative - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 269,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/decaderep.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/digitalhistory",
+      "file": "legacy/volunteer/digitalhistory.html",
+      "title": "Digital History Designer - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 242,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/digitalhistory.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/displaydesigner",
+      "file": "legacy/volunteer/displaydesigner.html",
+      "title": "On-Campus Display Designer - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 238,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/displaydesigner.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/donorrecords",
+      "file": "legacy/volunteer/donorrecords.html",
+      "title": "Donor Records Coordinator - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 238,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/donorrecords.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/fundstrategist",
+      "file": "legacy/volunteer/fundstrategist.html",
+      "title": "Fundraising Strategist - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 236,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/fundstrategist.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/graphicdesigner",
+      "file": "legacy/volunteer/graphicdesigner.html",
+      "title": "Social Media Graphic Designer - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 222,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/graphicdesigner.jpeg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/",
+      "file": "legacy/volunteer/index.html",
+      "title": "Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 384,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": [
+        "https://forms.gle/GFLnBgAkQqznQ4A69"
+      ]
+    },
+    {
+      "route": "/volunteer/memorialgardener",
+      "file": "legacy/volunteer/memorialgardener.html",
+      "title": "Veterans Memorial Gardener - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 193,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/memorialgardener.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/newscontributor",
+      "file": "legacy/volunteer/newscontributor.html",
+      "title": "Newsletter Contributor - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 187,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/newscontributor.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/newspaperliaison",
+      "file": "legacy/volunteer/newspaperliaison.html",
+      "title": "Newspaper Liaison - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 220,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/newspaperliaison.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/photoarchivist",
+      "file": "legacy/volunteer/photoarchivist.html",
+      "title": "Photo Archivist - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 217,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/photoarchivist.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/photographer",
+      "file": "legacy/volunteer/photographer.html",
+      "title": "Photographer - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 240,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/photographer.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/picnicdayof",
+      "file": "legacy/volunteer/picnicdayof.html",
+      "title": "Picnic Volunteer Coordinator - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 287,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/picnicmember.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/picnicmember",
+      "file": "legacy/volunteer/picnicmember.html",
+      "title": "All-Class Picnic Committee Member - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 197,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/picnicmember.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/picnicvolunteercoord",
+      "file": "legacy/volunteer/picnicvolunteercoord.html",
+      "title": "Picnic Volunteer Coordinator - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 300,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/picnicvolunteercoord.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/restricted",
+      "file": "legacy/volunteer/restricted.html",
+      "title": "Restricted Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 203,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/rosesteward",
+      "file": "legacy/volunteer/rosesteward.html",
+      "title": "Rose Festival Princess Steward - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 296,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/rosesteward.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/scholarshipadmin",
+      "file": "legacy/volunteer/scholarshipadmin.html",
+      "title": "Scholarship Application Administrator - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 288,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/scholarshipadmin.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/socialmediaassistant",
+      "file": "legacy/volunteer/socialmediaassistant.html",
+      "title": "Social Media Assistant - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 221,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/socialmediaassistant.png"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/staffliaison",
+      "file": "legacy/volunteer/staffliaison.html",
+      "title": "Staff Liaison - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 239,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/staffliaison.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/studentrepmentor",
+      "file": "legacy/volunteer/studentrepmentor.html",
+      "title": "Student Representative Mentor - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 275,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/studentrepmentor.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/tradeadvisor",
+      "file": "legacy/volunteer/tradeadvisor.html",
+      "title": "Trade School Scholarship Advisor - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 254,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/tradeadvisor.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/volunteercoordinator",
+      "file": "legacy/volunteer/volunteercoordinator.html",
+      "title": "Volunteer Coordinator - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "utf-8",
+      "words": 267,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/volunteercoordinator.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    },
+    {
+      "route": "/volunteer/yearbookarchivist",
+      "file": "legacy/volunteer/yearbookarchivist.html",
+      "title": "Yearbook Archivist - Volunteer - Roosevelt High School Alumni Association",
+      "encoding": "windows-1252",
+      "words": 236,
+      "hero": {
+        "class": "photovolunteer",
+        "image": "/images/headers/volunteer.png",
+        "title": "Volunteer"
+      },
+      "images": [
+        "/images/volunteer/yearbookarchivist.jpg"
+      ],
+      "pdfs": [],
+      "embeds": [],
+      "forms": [],
+      "externalLinks": []
+    }
+  ],
+  "heroes": {
+    "photohome": "/images/headers/home.png",
+    "photoabout": "/images/headers/about.png",
+    "photoevent": "/images/headers/events.png",
+    "photoreunion": "/images/headers/reunion.png",
+    "photohistory": "/images/headers/history.png",
+    "photodonate": "/images/headers/donate.png",
+    "photogrant": "/images/headers/grant.png",
+    "photolink": "/images/headers/links.png",
+    "photocontact": "/images/headers/contact.png",
+    "photoboard": "/images/headers/boardhead.png",
+    "photobylaws": "/images/headers/bylawshead.png",
+    "photocom": "/images/headers/committeeshead.png",
+    "photosota": "/images/headers/sotahead.png",
+    "photorhs": "/images/headers/rhsevents.png",
+    "photoplan": "/images/headers/reunionplanning.png",
+    "photoprincess": "/images/headers/princesshead.png",
+    "photogifts": "/images/headers/gifthead.png",
+    "photocoat": "/images/headers/coathead.png",
+    "photomemorial": "/images/headers/memorialhead.png",
+    "photooutstanding": "/images/headers/outstanding.png",
+    "photovolunteer": "/images/headers/volunteer.png",
+    "photoathletic": "/images/headers/athletichead.png",
+    "photofifty": "/images/headers/fiftyhead.png",
+    "photoscholarship": "/images/headers/scholarshiphead.png",
+    "photowinners": "/images/headers/winnershead.png",
+    "photonews": "/images/headers/newshead.png",
+    "photoprincipals": "/images/headers/principals.jpg",
+    "photoverboutaward": "/images/headers/verboutaward.jpg"
+  },
+  "brokenRefs": [
+    {
+      "from": "includes/rhsaa-style.css",
+      "ref": "../images/headers/fiftyhead.png",
+      "resolved": "/images/headers/fiftyhead.png"
+    },
+    {
+      "from": "includes/rhsaa-style.css",
+      "ref": "../images/headers/fiftyhead.png",
+      "resolved": "/images/headers/fiftyhead.png"
+    }
+  ],
+  "orphanPages": [
+    "/403",
+    "/404",
+    "/studentrep",
+    "/volunteer/athleticdata",
+    "/volunteer/digitalhistory",
+    "/volunteer/graphicdesigner",
+    "/volunteer/picnicdayof",
+    "/volunteer/scholarshipadmin",
+    "/volunteer/socialmediaassistant",
+    "/volunteer/studentrepmentor",
+    "/volunteer/yearbookarchivist"
+  ],
+  "unreferencedAssets": [
+    "/images/board/teddy1.png",
+    "/images/committees/feeder.png",
+    "/images/common/gbar.png",
+    "/images/common/logonew.png",
+    "/images/common/tab.ico",
+    "/images/common/tab.png",
+    "/images/common/tab2.png",
+    "/images/common/twitter.png",
+    "/images/donate/paypalgrey.png",
+    "/images/donate/verified.png",
+    "/images/events/1970Reunion.png",
+    "/images/events/2026PicnicPoster.png",
+    "/images/events/2026SaveTheDatePicnic.png",
+    "/images/grants/202605dance.JPG",
+    "/images/history/halloffame.jpeg",
+    "/images/history/halloffamesoon.png",
+    "/images/history/outstandinglink.png",
+    "/images/history/outstandinglinksoon.png",
+    "/images/princess/2020.jpg",
+    "/images/princess/2020Dyllan.jpg",
+    "/images/princess/2025Coronation.JPG",
+    "/pdf/2013-State_of_the_Association.pdf",
+    "/pdf/2024GolfRegistration.pdf"
+  ],
+  "oversizedAssets": [
+    {
+      "path": "/images/headers/volunteer.png",
+      "bytes": 13150298
+    },
+    {
+      "path": "/images/headers/contact.png",
+      "bytes": 11308213
+    },
+    {
+      "path": "/images/headers/reunionplanning.png",
+      "bytes": 10809678
+    },
+    {
+      "path": "/images/headers/home.png",
+      "bytes": 10495791
+    },
+    {
+      "path": "/images/headers/athletichead.png",
+      "bytes": 10359584
+    },
+    {
+      "path": "/images/headers/about.png",
+      "bytes": 7990073
+    },
+    {
+      "path": "/images/committees/landscape.png",
+      "bytes": 7157823
+    },
+    {
+      "path": "/images/headers/newshead.png",
+      "bytes": 7155809
+    },
+    {
+      "path": "/images/memorials/vetclose.png",
+      "bytes": 7143783
+    },
+    {
+      "path": "/images/headers/bylawshead.png",
+      "bytes": 7041492
+    },
+    {
+      "path": "/images/memorials/vetout.png",
+      "bytes": 6436313
+    },
+    {
+      "path": "/images/headers/grant.png",
+      "bytes": 5150047
+    },
+    {
+      "path": "/images/headers/scholarshiphead.png",
+      "bytes": 5016558
+    },
+    {
+      "path": "/images/headers/history.png",
+      "bytes": 4975690
+    },
+    {
+      "path": "/images/headers/outstanding.png",
+      "bytes": 4928735
+    },
+    {
+      "path": "/images/princess/2021.png",
+      "bytes": 4403701
+    },
+    {
+      "path": "/images/history/history-60s.png",
+      "bytes": 4293227
+    },
+    {
+      "path": "/images/princess/2023.png",
+      "bytes": 3895441
+    },
+    {
+      "path": "/images/princess/2022.png",
+      "bytes": 3687785
+    },
+    {
+      "path": "/images/principals/11-Hryciw.jpg",
+      "bytes": 3519157
+    },
+    {
+      "path": "/images/principals/4-Griffith.jpg",
+      "bytes": 2810828
+    },
+    {
+      "path": "/images/events/2026PicnicPoster.png",
+      "bytes": 2646210
+    },
+    {
+      "path": "/images/events/2027Picnic-Date.png",
+      "bytes": 2602755
+    },
+    {
+      "path": "/images/princess/2026.png",
+      "bytes": 2405694
+    },
+    {
+      "path": "/images/headers/links.png",
+      "bytes": 2267309
+    },
+    {
+      "path": "/images/princess/2025.png",
+      "bytes": 2254313
+    },
+    {
+      "path": "/images/coatofarms/oldcrest.png",
+      "bytes": 2053152
+    },
+    {
+      "path": "/images/sota/2026/sota-vets-26.png",
+      "bytes": 2009545
+    },
+    {
+      "path": "/images/history/history-2010s.jpg",
+      "bytes": 1990627
+    },
+    {
+      "path": "/images/scholarships/2024Karter.png",
+      "bytes": 1980118
+    },
+    {
+      "path": "/images/donate/check.png",
+      "bytes": 1945495
+    },
+    {
+      "path": "/images/scholarships/2024Finn.png",
+      "bytes": 1898818
+    },
+    {
+      "path": "/images/scholarships/2024Aili.png",
+      "bytes": 1890643
+    },
+    {
+      "path": "/images/memorials/vetfull.png",
+      "bytes": 1875206
+    },
+    {
+      "path": "/images/scholarships/2024Ellie.png",
+      "bytes": 1862990
+    },
+    {
+      "path": "/images/sota/2026/sota-board-26.png",
+      "bytes": 1817433
+    },
+    {
+      "path": "/images/sota/2026/sota-support-26.png",
+      "bytes": 1758225
+    },
+    {
+      "path": "/images/sota/2025/sota-coms-25.png",
+      "bytes": 1753643
+    },
+    {
+      "path": "/images/sota/2025/sota-picnic-25.png",
+      "bytes": 1745629
+    },
+    {
+      "path": "/images/sota/2026/sota-picnic-26.png",
+      "bytes": 1733648
+    },
+    {
+      "path": "/images/donate/meganalumni3.jpg",
+      "bytes": 1725933
+    },
+    {
+      "path": "/images/scholarships/2026Verbout-Hazel.JPG",
+      "bytes": 1686813
+    },
+    {
+      "path": "/images/principals/16-Williams.png",
+      "bytes": 1678890
+    },
+    {
+      "path": "/images/memorials/HQ_FallenAlumni.JPG",
+      "bytes": 1675442
+    },
+    {
+      "path": "/images/common/websitefooter.png",
+      "bytes": 1669666
+    },
+    {
+      "path": "/images/scholarships/2024Hazel.png",
+      "bytes": 1661797
+    },
+    {
+      "path": "/images/sota/2026/sota-grants-26.png",
+      "bytes": 1660380
+    },
+    {
+      "path": "/images/sota/2025/sota-sympathy-25.png",
+      "bytes": 1655039
+    },
+    {
+      "path": "/images/memorials/allvets.png",
+      "bytes": 1628270
+    },
+    {
+      "path": "/images/sota/2026/sota-rep-26.png",
+      "bytes": 1615153
+    },
+    {
+      "path": "/images/events/1970Reunion.png",
+      "bytes": 1595950
+    },
+    {
+      "path": "/images/sota/2026/sota-scholarship-26.png",
+      "bytes": 1594142
+    },
+    {
+      "path": "/images/headers/reunion.png",
+      "bytes": 1588999
+    },
+    {
+      "path": "/images/sota/2025/sota-grants-25.png",
+      "bytes": 1585188
+    },
+    {
+      "path": "/images/principals/10-Galati.jpg",
+      "bytes": 1582544
+    },
+    {
+      "path": "/images/memorials/vietnam.png",
+      "bytes": 1575738
+    },
+    {
+      "path": "/images/sota/2025/sota-vets-25.png",
+      "bytes": 1567774
+    },
+    {
+      "path": "/images/aboutus/sota.png",
+      "bytes": 1558963
+    },
+    {
+      "path": "/images/sota/2025/sota-scholarship-25.png",
+      "bytes": 1534266
+    },
+    {
+      "path": "/images/sota/2024/sota-cherry-24.png",
+      "bytes": 1527071
+    },
+    {
+      "path": "/images/sota/2026/sota-coms-26.png",
+      "bytes": 1516781
+    },
+    {
+      "path": "/images/home/MikeAnnouncement.png",
+      "bytes": 1515463
+    },
+    {
+      "path": "/images/scholarships/2023Gwen.png",
+      "bytes": 1495424
+    },
+    {
+      "path": "/images/sota/2025/sota-holiday-25.png",
+      "bytes": 1486241
+    },
+    {
+      "path": "/images/sota/2024/sota-picnic-24.png",
+      "bytes": 1485410
+    },
+    {
+      "path": "/images/sota/2026/sota-hof-26.png",
+      "bytes": 1479154
+    },
+    {
+      "path": "/images/sota/2025/sota-exec-25.png",
+      "bytes": 1465063
+    },
+    {
+      "path": "/images/sota/2026/sota-history-26.png",
+      "bytes": 1447575
+    },
+    {
+      "path": "/images/memorials/wwii.png",
+      "bytes": 1442361
+    },
+    {
+      "path": "/images/donate/bandgrant.png",
+      "bytes": 1424044
+    },
+    {
+      "path": "/images/history/memorial.png",
+      "bytes": 1418910
+    },
+    {
+      "path": "/images/memorials/gulf.png",
+      "bytes": 1415106
+    },
+    {
+      "path": "/images/sota/2025/sota-history-25.png",
+      "bytes": 1381691
+    },
+    {
+      "path": "/images/sota/2026/sota-exec-26.png",
+      "bytes": 1377407
+    },
+    {
+      "path": "/images/sota/2024/sota-grants-24.png",
+      "bytes": 1361658
+    },
+    {
+      "path": "/images/sota/2024/sota-board-24.png",
+      "bytes": 1359928
+    },
+    {
+      "path": "/images/sota/2024/sota-history-24.png",
+      "bytes": 1359700
+    },
+    {
+      "path": "/images/sota/2025/sota-hof-25.png",
+      "bytes": 1359034
+    },
+    {
+      "path": "/images/sota/2026/sota-fundraising-26.png",
+      "bytes": 1346831
+    },
+    {
+      "path": "/images/history/coat.png",
+      "bytes": 1326092
+    },
+    {
+      "path": "/images/rhsevents/general.png",
+      "bytes": 1324834
+    },
+    {
+      "path": "/images/headers/gifthead.png",
+      "bytes": 1317600
+    },
+    {
+      "path": "/images/history/outstandinglink.png",
+      "bytes": 1296267
+    },
+    {
+      "path": "/images/volunteer/memorialgardener.png",
+      "bytes": 1290532
+    },
+    {
+      "path": "/images/volunteer/picnicmember.png",
+      "bytes": 1263808
+    },
+    {
+      "path": "/images/headers/coathead.png",
+      "bytes": 1253753
+    },
+    {
+      "path": "/images/sota/2024/sota-veterans-24.png",
+      "bytes": 1234014
+    },
+    {
+      "path": "/images/history/rosefestival.png",
+      "bytes": 1226114
+    },
+    {
+      "path": "/images/headers/sotahead.png",
+      "bytes": 1218795
+    },
+    {
+      "path": "/images/sota/2024/sota-executive-24.png",
+      "bytes": 1214259
+    },
+    {
+      "path": "/images/headers/events.png",
+      "bytes": 1206248
+    },
+    {
+      "path": "/images/sota/2025/sota-support-25.png",
+      "bytes": 1184401
+    },
+    {
+      "path": "/images/princess/2024.png",
+      "bytes": 1175115
+    },
+    {
+      "path": "/images/sota/2024/sota-centennial-24.png",
+      "bytes": 1168832
+    },
+    {
+      "path": "/images/headers/boardhead.png",
+      "bytes": 1164209
+    },
+    {
+      "path": "/images/sota/2024/sota-scholarship-24.png",
+      "bytes": 1148302
+    },
+    {
+      "path": "/images/sota/2024/sota-pil-24.png",
+      "bytes": 1142776
+    },
+    {
+      "path": "/images/common/logonew.png",
+      "bytes": 1137062
+    },
+    {
+      "path": "/images/headers/princesshead.png",
+      "bytes": 1133197
+    },
+    {
+      "path": "/images/history/outstandinglinksoon.png",
+      "bytes": 1109519
+    },
+    {
+      "path": "/images/headers/donate.png",
+      "bytes": 1095713
+    },
+    {
+      "path": "/images/headers/committeeshead.png",
+      "bytes": 1081817
+    },
+    {
+      "path": "/images/sota/2025/sota-board-25.png",
+      "bytes": 1078486
+    },
+    {
+      "path": "/images/principals/6-James.PNG",
+      "bytes": 1076965
+    },
+    {
+      "path": "/images/committees/veterans.png",
+      "bytes": 1062927
+    },
+    {
+      "path": "/images/home/StudentRepresentativeFlyer.png",
+      "bytes": 1030925
+    },
+    {
+      "path": "/images/princess/2020PrincessDyllan.jpg",
+      "bytes": 1015415
+    }
+  ]
+}

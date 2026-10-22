@@ -10,7 +10,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "check": "astro check"
+    "check": "astro check",
+    "legacy:check": "node scripts/check-legacy.mjs",
+    "legacy:serve": "bun scripts/legacy-serve.mjs",
+    "legacy:audit": "node scripts/legacy-audit.mjs",
+    "legacy:extract": "node scripts/legacy-extract.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

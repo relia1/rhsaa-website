@@ -1,0 +1,482 @@
+{
+  "$comment": "Migration tracker. status: todo | in-progress | migrated | verified | dropped. target = new URL (keep legacy URL unless there is a reason; add a redirect in src/config/redirects.mjs if it changes). Updated by the migrate-page skill; checked by scripts/check-links.mjs.",
+  "legacySource": {
+    "ref": "origin/v1.0.0",
+    "commit": "c982fab6c54d1ce312ff5c61cc498101f629e994",
+    "$comment": "legacy/ is a copy of this commit (2026-09-06). bun run status warns when ref moves."
+  },
+  "routes": {
+    "/403": {
+      "target": "/403",
+      "status": "todo",
+      "phase": 0,
+      "model": null,
+      "legacyFile": "legacy/403.html",
+      "notes": "Static host error page. Decide with owner whether the new host needs it."
+    },
+    "/404": {
+      "target": "/404",
+      "status": "todo",
+      "phase": 0,
+      "model": null,
+      "legacyFile": "legacy/404.html",
+      "notes": "Becomes src/pages/404.astro."
+    },
+    "/about/board": {
+      "target": "/about/board",
+      "status": "todo",
+      "phase": 3,
+      "model": "board",
+      "legacyFile": "legacy/about/board.html",
+      "notes": ""
+    },
+    "/about/boardpolicy": {
+      "target": "/about/boardpolicy",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/about/boardpolicy.html",
+      "notes": "Not in nav."
+    },
+    "/about/bylaws": {
+      "target": "/about/bylaws",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/about/bylaws.html",
+      "notes": "Long legal text; good fit for a Markdown page."
+    },
+    "/about/committees": {
+      "target": "/about/committees",
+      "status": "todo",
+      "phase": 3,
+      "model": "committees",
+      "legacyFile": "legacy/about/committees.html",
+      "notes": ""
+    },
+    "/about/": {
+      "target": "/about/",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/about/index.html",
+      "notes": ""
+    },
+    "/about/sota": {
+      "target": "/about/sota",
+      "status": "todo",
+      "phase": 3,
+      "model": "sotaReports",
+      "legacyFile": "legacy/about/sota.html",
+      "notes": "Current year report (May 2025-May 2026)."
+    },
+    "/about/sota2024": {
+      "target": "/about/sota2024",
+      "status": "todo",
+      "phase": 3,
+      "model": "sotaReports",
+      "legacyFile": "legacy/about/sota2024.html",
+      "notes": "Archived report; keep URL."
+    },
+    "/about/sota2025": {
+      "target": "/about/sota2025",
+      "status": "todo",
+      "phase": 3,
+      "model": "sotaReports",
+      "legacyFile": "legacy/about/sota2025.html",
+      "notes": "Archived report; keep URL."
+    },
+    "/about/studentduties": {
+      "target": "/about/studentduties",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/about/studentduties.html",
+      "notes": "Not in nav."
+    },
+    "/contact/": {
+      "target": "/contact/",
+      "status": "todo",
+      "phase": 4,
+      "model": "site config",
+      "legacyFile": "legacy/contact/index.html",
+      "notes": "Mailchimp signup form: preserve action URL, field names and honeypot exactly."
+    },
+    "/donate/": {
+      "target": "/donate/",
+      "status": "todo",
+      "phase": 4,
+      "model": "site config",
+      "legacyFile": "legacy/donate/index.html",
+      "notes": "PayPal hosted button form."
+    },
+    "/donate/megansletter": {
+      "target": "/donate/megansletter",
+      "status": "todo",
+      "phase": 4,
+      "model": null,
+      "legacyFile": "legacy/donate/megansletter.html",
+      "notes": "Two PayPal forms."
+    },
+    "/events/": {
+      "target": "/events/",
+      "status": "todo",
+      "phase": 3,
+      "model": "events",
+      "legacyFile": "legacy/events/index.html",
+      "notes": ""
+    },
+    "/events/reunions": {
+      "target": "/events/reunions",
+      "status": "todo",
+      "phase": 3,
+      "model": "events",
+      "legacyFile": "legacy/events/reunions.html",
+      "notes": ""
+    },
+    "/events/rhs": {
+      "target": "/events/rhs",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/events/rhs.html",
+      "notes": ""
+    },
+    "/grants/grantrecipients": {
+      "target": "/grants/grantrecipients",
+      "status": "todo",
+      "phase": 3,
+      "model": "grants",
+      "legacyFile": "legacy/grants/grantrecipients.html",
+      "notes": "42 images, grouped by fiscal year."
+    },
+    "/grants/": {
+      "target": "/grants/",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/grants/index.html",
+      "notes": ""
+    },
+    "/history/coatofarms": {
+      "target": "/history/coatofarms",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/history/coatofarms.html",
+      "notes": ""
+    },
+    "/history/fallenalumnimemorial": {
+      "target": "/history/fallenalumnimemorial",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/history/fallenalumnimemorial.html",
+      "notes": "Not linked from nav."
+    },
+    "/history/": {
+      "target": "/history/",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/history/index.html",
+      "notes": ""
+    },
+    "/history/memorials": {
+      "target": "/history/memorials",
+      "status": "todo",
+      "phase": 4,
+      "model": null,
+      "legacyFile": "legacy/history/memorials.html",
+      "notes": "YouTube iframe embed."
+    },
+    "/history/princesses": {
+      "target": "/history/princesses",
+      "status": "todo",
+      "phase": 3,
+      "model": "princesses",
+      "legacyFile": "legacy/history/princesses.html",
+      "notes": "Largest page: 106 images."
+    },
+    "/history/principals": {
+      "target": "/history/principals",
+      "status": "todo",
+      "phase": 3,
+      "model": "principals",
+      "legacyFile": "legacy/history/principals.html",
+      "notes": ""
+    },
+    "/": {
+      "target": "/",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/index.html",
+      "notes": "Homepage; announcement + gear cards. Note legacy image paths use ../ from root."
+    },
+    "/links/": {
+      "target": "/links/",
+      "status": "todo",
+      "phase": 3,
+      "model": "links",
+      "legacyFile": "legacy/links/index.html",
+      "notes": ""
+    },
+    "/news/": {
+      "target": "/news/",
+      "status": "todo",
+      "phase": 4,
+      "model": "site config",
+      "legacyFile": "legacy/news/index.html",
+      "notes": "Mailchimp archive <script> embed \u2014 needs is:inline."
+    },
+    "/scholarships/": {
+      "target": "/scholarships/",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/scholarships/index.html",
+      "notes": ""
+    },
+    "/scholarships/pastrecipients": {
+      "target": "/scholarships/pastrecipients",
+      "status": "todo",
+      "phase": 3,
+      "model": "scholarshipRecipients",
+      "legacyFile": "legacy/scholarships/pastrecipients.html",
+      "notes": ""
+    },
+    "/scholarships/verboutaward": {
+      "target": "/scholarships/verboutaward",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/scholarships/verboutaward.html",
+      "notes": ""
+    },
+    "/studentrep": {
+      "target": "/studentrep",
+      "status": "todo",
+      "phase": 2,
+      "model": null,
+      "legacyFile": "legacy/studentrep.html",
+      "notes": "Applications closed notice. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/athleticdata": {
+      "target": "/volunteer/athleticdata",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/athleticdata.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/athleticresearcher": {
+      "target": "/volunteer/athleticresearcher",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/athleticresearcher.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/biowriter": {
+      "target": "/volunteer/biowriter",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/biowriter.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/decaderep": {
+      "target": "/volunteer/decaderep",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/decaderep.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/digitalhistory": {
+      "target": "/volunteer/digitalhistory",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/digitalhistory.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/displaydesigner": {
+      "target": "/volunteer/displaydesigner",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/displaydesigner.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/donorrecords": {
+      "target": "/volunteer/donorrecords",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/donorrecords.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/fundstrategist": {
+      "target": "/volunteer/fundstrategist",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/fundstrategist.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/graphicdesigner": {
+      "target": "/volunteer/graphicdesigner",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/graphicdesigner.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/": {
+      "target": "/volunteer/",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/index.html",
+      "notes": "Lists public roles."
+    },
+    "/volunteer/memorialgardener": {
+      "target": "/volunteer/memorialgardener",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/memorialgardener.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/newscontributor": {
+      "target": "/volunteer/newscontributor",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/newscontributor.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/newspaperliaison": {
+      "target": "/volunteer/newspaperliaison",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/newspaperliaison.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/photoarchivist": {
+      "target": "/volunteer/photoarchivist",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/photoarchivist.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/photographer": {
+      "target": "/volunteer/photographer",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/photographer.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/picnicdayof": {
+      "target": "/volunteer/picnicdayof",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/picnicdayof.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/picnicmember": {
+      "target": "/volunteer/picnicmember",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/picnicmember.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/picnicvolunteercoord": {
+      "target": "/volunteer/picnicvolunteercoord",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/picnicvolunteercoord.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/restricted": {
+      "target": "/volunteer/restricted",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/restricted.html",
+      "notes": "Lists restricted roles. UNLISTED (owner decision): noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/rosesteward": {
+      "target": "/volunteer/rosesteward",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/rosesteward.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/scholarshipadmin": {
+      "target": "/volunteer/scholarshipadmin",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/scholarshipadmin.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/socialmediaassistant": {
+      "target": "/volunteer/socialmediaassistant",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/socialmediaassistant.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/staffliaison": {
+      "target": "/volunteer/staffliaison",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/staffliaison.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/studentrepmentor": {
+      "target": "/volunteer/studentrepmentor",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/studentrepmentor.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    },
+    "/volunteer/tradeadvisor": {
+      "target": "/volunteer/tradeadvisor",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/tradeadvisor.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/volunteercoordinator": {
+      "target": "/volunteer/volunteercoordinator",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/volunteercoordinator.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection."
+    },
+    "/volunteer/yearbookarchivist": {
+      "target": "/volunteer/yearbookarchivist",
+      "status": "todo",
+      "phase": 3,
+      "model": "volunteerRoles",
+      "legacyFile": "legacy/volunteer/yearbookarchivist.html",
+      "notes": "Rendered by src/pages/volunteer/[slug].astro from the volunteerRoles collection. UNLISTED (owner decision): publish at same URL, noindex, no inbound links, not in sitemap."
+    }
+  }
+}
