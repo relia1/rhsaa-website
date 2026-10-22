@@ -11,7 +11,13 @@
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "verify": "bun run legacy:check && bun run format:check && bun run lint && bun run check && bun run build && bun run links",
+    "lint": "node scripts/lint-conventions.mjs",
+    "lint:test": "node scripts/lint-conventions.test.mjs",
     "legacy:check": "node scripts/check-legacy.mjs",
+    "links": "node scripts/check-links.mjs",
     "legacy:serve": "bun scripts/legacy-serve.mjs",
     "legacy:audit": "node scripts/legacy-audit.mjs",
     "legacy:extract": "node scripts/legacy-extract.mjs"
