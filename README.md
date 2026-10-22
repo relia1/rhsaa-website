@@ -1,43 +1,30 @@
-# Astro Starter Kit: Minimal
+# RHSAA website
+
+Roosevelt High School Alumni Association Website
+
+This current version of the repository includes pages not yet published publicly on the RHSAA website.
+Once "versions" are created this repository will more accurately reflect the current status of the website.
+
+## Quick start
 
 ```sh
-bun create astro@latest -- --template minimal
+bun install
+bunx astro dev --background     # http://localhost:4321  (bunx astro dev stop | status | logs)
+bun run legacy:serve       # legacy site on http://localhost:4322
+bun run status             # migration progress
+bun run verify             # legacy/ unchanged, format, lint, type/content check, build, links
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Where things are
 
-## 🚀 Project Structure
+- `AGENTS.md` (= `CLAUDE.md`) — rules and commands for coding agents and humans
+- `docs/ARCHITECTURE.md` — stack, layout, content model, conventions
+- `docs/MIGRATION_PLAN.md` — phases and definition of done
+- `docs/DECISIONS.md` — decision log and open questions
+- `migration/status.json` — per-route migration tracker
+- `.claude/` — Claude Code subagents, skills and hooks for the migration workflow
 
-Inside of your Astro project, you'll see the following folders and files:
+## Migrating with Claude Code
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Open the repo in Claude Code and run `/migration-status`. It will point you to the next step;
+typically `/migrate-page <route>` or `/migrate-batch <phase|collection>`.
