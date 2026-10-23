@@ -2,8 +2,8 @@
   "$comment": "Migration tracker. status: todo | in-progress | migrated | verified | dropped. target = new URL (keep legacy URL unless there is a reason; add a redirect in src/config/redirects.mjs if it changes). Updated by the migrate-page skill; checked by scripts/check-links.mjs.",
   "legacySource": {
     "ref": "origin/v1.0.0",
-    "commit": "c982fab6c54d1ce312ff5c61cc498101f629e994",
-    "$comment": "legacy/ is a copy of this commit (2026-09-06). bun run status warns when ref moves."
+    "commit": "d227423a3596e8a0cba537dd37f8a7bb943db618",
+    "$comment": "legacy/ is a copy of this commit (2026-10-06). bun run status warns when ref moves."
   },
   "routes": {
     "/403": {

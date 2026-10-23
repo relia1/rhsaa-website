@@ -6,7 +6,7 @@ stylesheet, 384 assets (~337 MB). Tracker: `migration/status.json`. Facts below 
 
 ## Legacy source
 
-`legacy/` is a copy of branch `v1.0.0` at `c982fab` (2026-09-06), the live site. (`main` is an
+`legacy/` is a copy of branch `v1.0.0` at `d227423` (2026-10-06), the live site. (`main` is an
 older 2022 PHP version of the site; don't migrate from it.) The commit is recorded in
 `migration/status.json → legacySource`, and `bun run status` warns when `origin/v1.0.0` has
 moved on after a `git fetch`. If the live site changes during the migration, the owner decides
